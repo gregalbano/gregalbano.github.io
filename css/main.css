@@ -7,6 +7,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.5em
 }
 nav ul li, footer ul li {
     display: inline;
@@ -50,7 +51,7 @@ ul.posts li {
 }
 
 .about-left-odd p {
-    font-size: 1em
+    font-size: 1.1em
 }
 
 .about-right-odd {
@@ -68,10 +69,52 @@ ul.posts li {
 }
 
 .about-right-even p {
-    font-size: 1em
+    font-size: 1.1em
 }
 
 .about-left-even {
     display: inline-block;
     width: 30%;
+}
+
+.projects-left-odd {
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.projects-left-odd p {
+    font-size: 1em
+}
+
+.projects-left-odd a {
+    color: #1C383D
+}
+
+.projects-right-odd {
+    display: inline-block;
+    width: 45%;
+    float:right
+}
+
+.experience-left {
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.experience-left a {
+    color: #1C383D
+}
+
+.experience-left p {
+    font-size: 1em
+}
+
+.experience-right {
+    display: inline-block;
+    width: 45%;
+    float:right
 }
