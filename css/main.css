@@ -35,7 +35,7 @@ h1 {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .1em; /* Adjust as needed */
     animation:
-    typing 4s steps(31, end),
+    typing 3s steps(12, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -80,6 +80,13 @@ ul.posts li {
     margin-right: auto;
     height:500px;
     width: 50%;
+}
+
+.typewriter-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
 }
 
 .about-left-odd {
