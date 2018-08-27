@@ -23,17 +23,17 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:', 'Sans-Serif';
 }
 
 .index h1 {
     font-size: 3em;
-    font-family:'American Typewriter', 'Serif';
+    font-family:'Courier New', 'monospace';
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
+    letter-spacing: .2em; /* Adjust as needed */
     animation:
     typing 3s steps(12, end),
     blink-caret .75s step-end infinite;
@@ -86,7 +86,7 @@ ul.posts li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 43%;
+    width: 50%;
 }
 
 .about-left-odd {
