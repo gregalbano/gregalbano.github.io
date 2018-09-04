@@ -92,6 +92,11 @@ ul.posts li {
     width: 50%;
 }
 
+.about-main p {
+    font-size: 1.1em;
+
+}
+
 .about-left-odd {
     display: inline-block;
     width: 65%;
