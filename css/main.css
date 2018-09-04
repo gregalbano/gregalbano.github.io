@@ -28,16 +28,10 @@ h1 {
 
 .index h1 {
     font-size: 3.2em;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid BLACK; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .3em; /* Adjust as needed */
-    animation:
-    typing 3s steps(13, end),
-    blink-caret .75s step-end infinite;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    letter-spacing: .25em; /* Adjust as needed */
+    height: .8em;
 }
 
 /* The typing effect */
@@ -72,8 +66,8 @@ ul.posts li {
 
 .bio {
     display: inline-block;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: 500;
     background-color: #FFFFFF;
 }
 
@@ -81,15 +75,15 @@ ul.posts li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:500px;
     width: 50%;
 }
 
-.typewriter-center {
+.index-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 500px;
 }
 
 .about-main p {
